@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+import { ColorProvider } from './components/ColorContext';
 
 ReactDOM.render(
   <BrowserRouter>
-    <React.StrictMode>
+<React.StrictMode>
+    <ColorProvider>
       <App />
-    </React.StrictMode>
+    </ColorProvider>
+  </React.StrictMode>,
   </BrowserRouter>,
   document.getElementById('root')
 );
