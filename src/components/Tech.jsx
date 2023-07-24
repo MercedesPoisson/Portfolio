@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faSquareJs, faCss3Alt, faReact, faNodeJs, faGitAlt, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { SiTypescript, SiTailwindcss, SiSequelize } from 'react-icons/si';
+import { SiTypescript, SiTailwindcss, SiSequelize, SiExpress } from 'react-icons/si';
 import { TbBrandVite } from 'react-icons/tb';
 import { BiLogoPostgresql  } from 'react-icons/bi';
 import { DiVisualstudio  } from 'react-icons/di';
@@ -15,8 +15,8 @@ const Tech = () => {
   return (
     <div className="mt-20">
       <h1 className={`mb-1 text-5xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>Tech Skills</h1>
-      <div className={`text-sm mt-4 text-justify font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>
-        <p className={isPurple ? "text-green" : "text-black"}>Found some of the technologies I worked with:</p>
+      <div className={`text-sm mt-4 text-justify font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
+        <p className={isPurple ? "text-green" : "text-red"}>Found some of the technologies I worked with:</p>
 
         <div className="grid grid-cols-5 gap-4 mt-6">
           <div className="flex flex-col items-center border mb-8 py-2">
@@ -60,7 +60,7 @@ const Tech = () => {
           </div>
 
           <div className="flex flex-col items-center border mb-8 py-2">
-            <span></span>
+            <span><SiExpress className={`mr-2 cursor-pointer text-4xl ${isPurple ? "text-red  hover:text-green" : "text-green hover:text-red"}  `}/></span>
             <span>Express</span>
             </div>
 

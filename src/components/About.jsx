@@ -9,7 +9,7 @@ const About = () => {
     <div className="mt-20">
       <h1 className={`mb-1 text-5xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>About</h1>
       <div className="text-sm mt-4 text-justify">
-        <p className={isPurple ? "text-slate-200" : "text-black"}>
+        <p className={`font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
           In the past few years, I worked as a data analyst at the Federal
           Administration of Public Revenues (AFIP). Many people consider this to
           be an ideal job, but not for me. <br />

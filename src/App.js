@@ -4,6 +4,7 @@ import Home from "./Views/home"
 import 'tailwindcss/tailwind.css';
 import About from "./components/About";
 import Tech from "./components/Tech";
+import Project from "./components/Project";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Portfolio />}/>
           <Route path="about" element={<About />}/>
           <Route path="tech" element={<Tech />}/>
+          <Route path="project" element={<Project />}/>
 
         </Route>
         </Routes>   
