@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import { BsEmojiSmile, BsEmojiSmileFill  } from 'react-icons/bs';
+import { BsEmojiSmileFill  } from 'react-icons/bs';
 import { useContext } from "react";
 import ColorContext from "./ColorContext";
 
@@ -19,16 +19,19 @@ const NavBar = () => {
   const handleNavigateToProject = () => {
     navigate("/project")
   }
+  const handleNavigateToContact = () => {
+    navigate("/contact")
+  }
   
   return (
     <div className={`h-16 px-4 flex items-center font-sans ${isPurple ? 'bg-purple' : 'bg-white'}`}>
       {isPurple ? (
-        <BsEmojiSmileFill className="mr-2 text-red" onClick={toggleColor} />
+        <BsEmojiSmileFill className={`mr-2 text-red animate-pulse`} onClick={toggleColor} />
       ) : (
-        <BsEmojiSmileFill className="mr-2 text-purple" onClick={toggleColor} />
+        <BsEmojiSmileFill className={`mr-2 text-purple animate-pulse`} onClick={toggleColor} />
       )}
       <p className={`text-sm font-light ${isPurple ? "text-slate-200" : "text-black"}`}>
-        mood color control
+        mood control
       </p>
 
       <div className={`flex gap-2 mr-2 ml-auto ${isPurple ? "text-slate-200" : "text-black"}`}>
@@ -38,9 +41,9 @@ const NavBar = () => {
             <li className="cursor-pointer font-medium hover:text-green" onClick={handleNavigateToAbout}>About</li>
             <li className="cursor-pointer font-medium hover:text-green" onClick={handleNavigateTotech}>Tech</li>
             <li className="cursor-pointer font-medium hover:text-green" onClick={handleNavigateToProject}>Projects</li>
-            <li className="cursor-pointer font-medium hover:text-green">Contact</li>
+            {/* <li className="cursor-pointer font-medium hover:text-green" onClick={handleNavigateToContact}>Contact</li> */}
             <li className="cursor-pointer mr-1 font-bold text-red hover:text-black">EN</li>
-            <li className="cursor-pointer font-bold text-red hover:text-black">ES</li>
+            {/* <li className="cursor-pointer font-bold text-red hover:text-black">ES</li> */}
           </ul>
         </nav>
       </div>

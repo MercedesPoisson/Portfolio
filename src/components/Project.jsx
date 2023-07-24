@@ -1,28 +1,22 @@
 import { useContext, useState } from "react";
 import ColorContext from "./ColorContext";
-import YouTube from "react-youtube";
-import { PiPopcornDuotone } from 'react-icons/pi';
-import Modal from "react-modal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { PiPopcornDuotone } from "react-icons/pi";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
 const Project = () => {
   const { isPurple, toggleColor } = useContext(ColorContext);
 
   const [activeProject, setActiveProject] = useState("airebnb");
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [activeVideoId, setActiveVideoId] = useState("");
+  // const [activeVideoId, setActiveVideoId] = useState("");
 
   const handleProjectClick = (project) => {
     setActiveProject(project);
   };
 
-  const openModal = (videoId) => {
-    setIsModalOpen(true);
-    setActiveVideoId(videoId);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-    setActiveVideoId("");
+  const handleWatchClick = (videoId) => {
+    const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
+    window.open(videoUrl, "_blank");
   };
 
   return (
@@ -39,7 +33,6 @@ const Project = () => {
           isPurple ? "text-slate-200" : "text-black"
         }`}
       >
-
         <div>
           <div
             className={`flex gap-2 mr-2 ml-auto ${
@@ -48,19 +41,25 @@ const Project = () => {
           >
             <ul className="flex space-x-6">
               <li
-                className={`cursor-pointer font-bold hover:text-green ${isPurple ? "text-slate-200" : "text-black"}`}
+                className={`cursor-pointer font-bold hover:text-green ${
+                  isPurple ? "text-slate-200" : "text-black"
+                }`}
                 onClick={() => handleProjectClick("airebnb")}
               >
                 airebnb
               </li>
               <li
-                className={`cursor-pointer font-bold hover:text-green ${isPurple ? "text-slate-200" : "text-black"}`}
+                className={`cursor-pointer font-bold hover:text-green ${
+                  isPurple ? "text-slate-200" : "text-black"
+                }`}
                 onClick={() => handleProjectClick("foodie-lovers")}
               >
                 Foodie Lovers
               </li>
               <li
-                className={`cursor-pointer font-bold hover:text-green ${isPurple ? "text-slate-200" : "text-black"}`}
+                className={`cursor-pointer font-bold hover:text-green ${
+                  isPurple ? "text-slate-200" : "text-black"
+                }`}
                 onClick={() => handleProjectClick("rick-and-morty")}
               >
                 Rick & Morty
@@ -70,9 +69,6 @@ const Project = () => {
 
           {activeProject === "airebnb" && (
             <div>
-              {/* <div>
-                <YouTube className="w-96" videoId="EI7aJW3Hgww" />
-              </div> */}
               <p
                 className={`font-light mt-3 ${
                   isPurple ? "text-slate-200" : "text-black"
@@ -89,9 +85,9 @@ const Project = () => {
                 >
                   The project was initiated using Vite as a fast framework for
                   application development. TypeScript was chosen for better code
-                  quality, safety, and control. For styling, Tailwind CSS. Node.js was
-                  selected as the runtime environment, and Express was chosen as the
-                  framework for building the REST API.
+                  quality, safety, and control. For styling, Tailwind CSS.
+                  Node.js was selected as the runtime environment, and Express
+                  was chosen as the framework for building the REST API.
                   PostgreSQL was used as the data management system, working in
                   conjunction with Sequelize for improved interaction.
                 </p>
@@ -115,32 +111,36 @@ const Project = () => {
                 >
                   Deployed at: https://pf-airbnb.vercel.app/?page=0
                 </p>
+                <p
+                  className={`font-light  mt-3 ${
+                    isPurple ? "text-slate-200" : "text-black"
+                  }`}
+                >
+                  <a
+                    href="https://github.com/MercedesPoisson/Airebnb_Complete_Project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithubSquare}
+                      className="text-red text-2xl hover:text-red justify-start"
+                    />
+                  </a>
+                </p>
               </p>
               <button
                 className={`border-2 border-red rounded-lg px-6 py-3 flex items-center my-6 ${
                   isPurple ? "bg-purple-500 text-white" : "bg-white text-black"
                 }`}
-                onClick={() => openModal("EI7aJW3Hgww")}
+                onClick={() => handleWatchClick("EI7aJW3Hgww")}
               >
                 <PiPopcornDuotone className="text-2xl mr-2" />
                 WATCH
               </button>
-              <Modal
-                isOpen={isModalOpen && activeVideoId === "EI7aJW3Hgww"}
-                onRequestClose={closeModal}
-                className={`modal ${isPurple ? "bg-slate-200" : "bg-white"} text-black`}
-                overlayClassName="overlay"
-                
-              >
-                {activeVideoId && <YouTube className="w-full" videoId={activeVideoId} />}
-              </Modal>
             </div>
           )}
           {activeProject === "foodie-lovers" && (
             <div>
-              {/* <div>
-                <YouTube className="w-96" videoId="SJvKPsnBYao" />
-              </div> */}
               <p
                 className={`font-light mt-3 ${
                   isPurple ? "text-slate-200" : "text-black"
@@ -169,31 +169,37 @@ const Project = () => {
                   controllers, and handlers. Additionally, I implemented a
                   PostgreSQL database using the Sequelize ORM.
                 </p>
+
+                <p
+                  className={`font-light  mt-3 ${
+                    isPurple ? "text-slate-200" : "text-black"
+                  }`}
+                >
+                  <a
+                    href="https://github.com/MercedesPoisson/FOOD_FOR_DEPLOY"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithubSquare}
+                      className="text-red text-2xl hover:text-red justify-start"
+                    />
+                  </a>
+                </p>
               </p>
               <button
                 className={`border-2 border-red rounded-lg px-6 py-3 flex items-center my-6 ${
                   isPurple ? "bg-purple-500 text-white" : "bg-white text-black"
                 }`}
-                onClick={() => openModal("SJvKPsnBYao")}
+                onClick={() => handleWatchClick("SJvKPsnBYao")}
               >
                 <PiPopcornDuotone className="text-2xl mr-2" />
                 WATCH
               </button>
-              <Modal
-                isOpen={isModalOpen && activeVideoId === "SJvKPsnBYao"}
-                onRequestClose={closeModal}
-                className={`modal ${isPurple ? "bg-slate-200" : "bg-white"} text-black `}
-                overlayClassName="overlay"
-              >
-                {activeVideoId && <YouTube className="w-full" videoId={activeVideoId} />}
-              </Modal>
             </div>
           )}
           {activeProject === "rick-and-morty" && (
             <div>
-              {/* <div>
-                <YouTube className="w-96" videoId="gX0y3v-uYy4" />
-              </div> */}
               <p
                 className={`font-light mt-3 ${
                   isPurple ? "text-slate-200" : "text-black"
@@ -207,24 +213,32 @@ const Project = () => {
                   series Rick & Morty. Users can search and filter characters in
                   various ways, save them as favorites, and authenticate users.
                 </p>
+                <p
+                  className={`font-light  mt-3 ${
+                    isPurple ? "text-slate-200" : "text-black"
+                  }`}
+                >
+                  <a
+                    href="https://github.com/MercedesPoisson/RickAndMorty"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithubSquare}
+                      className="text-red text-2xl hover:text-red justify-start"
+                    />
+                  </a>
+                </p>
               </p>
               <button
                 className={`border-2 border-red rounded-lg px-6 py-3 flex items-center my-6 ${
                   isPurple ? "bg-purple-500 text-white" : "bg-white text-black"
                 }`}
-                onClick={() => openModal("gX0y3v-uYy4")}
+                onClick={() => handleWatchClick("gX0y3v-uYy4")}
               >
                 <PiPopcornDuotone className="text-2xl mr-2" />
                 WATCH
               </button>
-              <Modal
-                isOpen={isModalOpen && activeVideoId === "gX0y3v-uYy4"}
-                onRequestClose={closeModal}
-                className={`modal ${isPurple ? "bg-slate-200" : "bg-white"} text-black `}
-                overlayClassName="overlay"
-              >
-                {activeVideoId && <YouTube className="w-full" videoId={activeVideoId} />}
-              </Modal>
             </div>
           )}
         </div>

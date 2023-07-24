@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFile as faSolidFile } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope as faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import MercedesPoisson from "../utils/MercedesPoisson.pdf";
 
 
 const RightIcons = () => {
@@ -18,7 +19,9 @@ const RightIcons = () => {
         <FontAwesomeIcon icon={faEnvelope} className="text-green text-3xl hover:text-red" />
       </a>
       <div className="flex flex-col items-center mt-4 cursor-pointer">
+        <a href={MercedesPoisson}>
         <FontAwesomeIcon icon={faSolidFile} className="text-green text-3xl hover:text-red" />
+      </a>
       </div>
     </div>
   );

@@ -13,37 +13,35 @@ const About = () => {
           In the past few years, I worked as a data analyst at the Federal
           Administration of Public Revenues (AFIP). Many people consider this to
           be an ideal job, but not for me. <br />
-          After more than 13 years, I quit and started my own decoration
-          company. At one point, the workload was so high that I needed some
-          sales to be automated, which required a website. I thought to myself,
-          "I can do it."
+          After over 13 years, I decided to take a leap of faith and pursue my passion 
+          in the world of interior decoration, starting my own company.  As the workload increased, 
+          I realized the need for automation and a website to streamline sales. 
+          I thought to myself, "I can do it."
         </p>
       </div>
       <div className="text-sm mt-4 text-justify">
         <p className={isPurple ? "text-slate-200" : "text-black"}>
-          And there it was, my very own breaking point. <br />
-          I can't do things halfway, so I started researching and came across
-          the format of a bootcamp at Soy Henry. I didn't really know what I
-          was signing up for, but it turned out to be the most intense months of
-          my life. Hours and hours of studying and practicing at a pace that I
-          thought I would never keep up with. But, being stubborn in a good
-          sense, always willing to push myself a little harder, and not being
-          great at accepting defeat, I gave my best.
+        Little did I know that this turning point would lead me to an experience that would completely 
+        blow my mind. <br />
+        I stumbled upon the format of a bootcamp at Soy Henry, and without hesitation, 
+        I jumped in. The following months were nothing short of intense – endless hours of studying 
+        and practicing at a pace I never thought I could sustain. However, fueled by my determination 
+        and unwillingness to accept defeat, I gave it my all.
         </p>
       </div>
       <div className="text-sm mt-4 text-justify">
         <p className={isPurple ? "text-slate-200" : "text-black"}>
-          Today, as I near the end of my studies, I am extremely proud of the
-          achievement and the time I have invested. I can proudly say that I am
-          a Full Stack developer, always eager to learn more in this
-          never-ending tech world.
+        With my studies now behind me, I am eager to embark on this exciting new chapter, 
+        armed with the knowledge and skills to create innovative solutions and tackle complex challenges. 
+        My passion for learning and exploring new technologies knows no bounds, and I am committed to staying 
+        at the forefront of the industry.
         </p>
       </div>
       <div className="text-sm mt-4 text-justify">
         <p className={isPurple ? "text-slate-200" : "text-black"}>
-          And just when I thought everything had been written, I can say that I
-          love having found this new profession and I am eager to rewrite my
-          future.
+        And just when I thought the story was written, I realize that it's only the beginning. 
+        I have found a new passion and profession that I absolutely love, and I'm excited to rewrite my 
+        future with endless possibilities ahead.
         </p>
       </div>
       <br/>

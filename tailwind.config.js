@@ -41,19 +41,20 @@ module.exports = {
             color: "#E96479", /* Color inicial */
           },
         },
-        // fullSpin: {
-        //   "0%": {
-        //     transform: "rotate(0deg)",
-        //   },
-        //   "100%": {
-        //     transform: "rotate(360deg)",
-        //   },
-        // },
+        pulse: { // Nueva definición para la animación pulse
+          "0%, 100%": {
+            transform: "scale(1)",
+          },
+          "50%": {
+            transform: "scale(1.2)",
+          },
+        },
+       
       },
       animation: {
         animate: "animate 6s linear infinite",
         changeColor: "changeColor 6s linear infinite",
-        // fullSpin: "fullSpin 3s linear infinite"
+   
       },
      
     },
@@ -79,37 +80,7 @@ module.exports = {
           overflow: "hidden",
           animation: "animate 6s linear infinite, changeColor 24s linear infinite",
           
-         
         },
-        // ".box__inner::before": {
-        //   content: '""',
-        //   position: "absolute",
-        //   background: "conic-gradient(#04b0ee 20deg, transparent 120deg)",
-        //   width: "450px",
-        //   height: "450px",
-        //   top: "-60%",
-        //   left: "-60%",
-        //   animation: "fullSpin",
-        // },
-        // ".transform-origin-center": {
-        //   "transform-origin": "center",
-        // },
-        // ".box::after": {
-        //   content: '"tailwind"',
-        //   color: "white",
-        //   width: "94%",
-        //   height: "94%",
-        //   background: "#020223",
-        //   position: "absolute",
-        //   top: "3%",
-        //   left: "3%",
-        //   display: "flex",
-        //   justifyContent: "center",
-        //   alignItems: "center",
-        //   textTransform: "uppercase",
-        //   letterSpacing: "2px",
-        //   fontWeight: "medium",
-        // },
       };
       addUtilities(newUtilities);
     }),
