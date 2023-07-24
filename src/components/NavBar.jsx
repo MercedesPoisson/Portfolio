@@ -42,7 +42,7 @@ const NavBar = () => {
             <li className="cursor-pointer font-medium hover:text-green" onClick={handleNavigateTotech}>Tech</li>
             <li className="cursor-pointer font-medium hover:text-green" onClick={handleNavigateToProject}>Projects</li>
             {/* <li className="cursor-pointer font-medium hover:text-green" onClick={handleNavigateToContact}>Contact</li> */}
-            <li className="cursor-pointer mr-1 font-bold text-red hover:text-black">EN</li>
+            <li className="cursor-pointer mr-1 font-bold text-red hover:text-black">ES</li>
             {/* <li className="cursor-pointer font-bold text-red hover:text-black">ES</li> */}
           </ul>
         </nav>

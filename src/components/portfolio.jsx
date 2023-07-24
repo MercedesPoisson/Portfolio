@@ -8,7 +8,7 @@ const Portfolio = () => {
     const { isPurple, toggleColor } = useContext(ColorContext);
 
     return (
-        <div className="mt-20">
+        <div className={`mt-20 animate-jump-in`}>
             <h4 className={`mb-6 text-base font-bold ${isPurple ? "text-red" : "text-green"}`}>Hi, my name is</h4>
             <h1 className={`mb-1 text-5xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>Mercedes Poisson</h1>
             <h1 className={`mb-1 text-5xl font-bold developer animation-animate ${isPurple ? "text-slate-200" : "text-black"}`}>I am a Full Stack Developer</h1>
