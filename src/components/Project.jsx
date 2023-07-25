@@ -22,7 +22,7 @@ const Project = () => {
   return (
     <div className="mt-20">
       <h1
-        className={`mb-1 text-5xl font-bold ${
+        className={`mb-1 text-3xl sm:text-4xl md:text-5xl font-bold ${
           isPurple ? "text-slate-200" : "text-black"
         }`}
       >
