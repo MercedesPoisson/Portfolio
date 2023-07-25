@@ -155,6 +155,12 @@ const NavBar = () => {
               >
                 Projects
               </li>
+              <li
+                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                onClick={handleNavigateToServices}
+              >
+                Services
+              </li>
               {/* <li className="block cursor-pointer font-medium text-black hover:text-green mb-2" onClick={handleNavigateToContact}>Contact</li> */}
               <li
                 className="block cursor-pointer font-bold text-red hover:text-black"
