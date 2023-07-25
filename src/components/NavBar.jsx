@@ -41,12 +41,12 @@ const NavBar = () => {
     >
       {isPurple ? (
         <BsEmojiSmileFill
-          className={`mr-2 text-red animate-pulse`}
+          className={`mr-2 text-green animate-pulse cursor-pointer`}
           onClick={toggleColor}
         />
       ) : (
         <BsEmojiSmileFill
-          className={`mr-2 text-purple animate-pulse`}
+          className={`mr-2 text-red animate-pulse cursor-pointer`}
           onClick={toggleColor}
         />
       )}
