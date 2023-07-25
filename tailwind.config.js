@@ -87,3 +87,5 @@ module.exports = {
     }),
   ],
 };
+
+// porque no sube esta config
