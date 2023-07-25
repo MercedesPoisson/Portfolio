@@ -10,38 +10,32 @@ const About = () => {
       <h1 className={`mb-1 text-2xl sm:text-3xl md:text-4xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>About</h1>
       <div className="text-sm mt-4 text-justify">
         <p className={`font-light sm:font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
-          In the past few years, I worked as a data analyst at the Federal
-          Administration of Public Revenues (AFIP). Many people consider this to
-          be an ideal job, but not for me. <br />
-          After over 13 years, I decided to take a leap of faith and pursue my passion 
-          in the world of interior decoration, starting my own company.  As the workload increased, 
-          I realized the need for automation and a website to streamline sales. 
-          I thought to myself, "I can do it."
+        Over the past years, my professional journey led me to work as a data analyst at the 
+        Federal Administration of Public Revenues (AFIP). While many find this career ideal, 
+        I realized it wasn't my true passion. Taking a leap of faith, I ventured into 
+        the world of interior decoration, establishing my own company.
         </p>
       </div>
       <div className="text-sm mt-4 text-justify">
         <p className={`font-light sm:font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
-        Little did I know that this turning point would lead me to an experience that would completely 
-        blow my mind. <br />
-        I stumbled upon the format of a bootcamp at Soy Henry, and without hesitation, 
-        I jumped in. The following months were nothing short of intense – endless hours of studying 
-        and practicing at a pace I never thought I could sustain. However, fueled by my determination 
-        and unwillingness to accept defeat, I gave it my all.
+        As I delved into entrepreneurship, the need for automation and an efficient 
+        website became evident for streamlining sales. This revelation sparked my interest in web development, 
+        leading me to enroll in a bootcamp at Soy Henry. The following months were filled with intense studying and practice, 
+        but my determination and unwavering commitment fueled me to give my best.
         </p>
       </div>
       <div className="text-sm mt-4 text-justify">
         <p className={`font-light sm:font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
-        With my studies now behind me, I am eager to embark on this exciting new chapter, 
-        armed with the knowledge and skills to create innovative solutions and tackle complex challenges. 
-        My passion for learning and exploring new technologies knows no bounds, and I am committed to staying 
-        at the forefront of the industry.
+        Now, with the bootcamp behind me, I'm excited to embrace a new chapter as a web developer. 
+        My hunger for knowledge and fascination with emerging technologies drive me to remain at the cutting edge of the industry. 
+        This journey has just begun, and I'm eager to create innovative solutions and contribute to the dynamic world of web development.
         </p>
       </div>
       <div className="text-sm mt-4 text-justify">
         <p className={`font-light sm:font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
-        And just when I thought the story was written, I realize that it's only the beginning. 
-        I have found a new passion and profession that I absolutely love, and I'm excited to rewrite my 
-        future with endless possibilities ahead.
+        Looking forward, I'm taking my passion for front-end development to the next level by enrolling in a UI/UX design course. 
+        I'm eager to blend my technical skills with creative design to craft captivating user experiences. 
+        The future holds exciting possibilities, and I can't wait to see where this new journey takes me.
         </p>
       </div>
       <br/>
