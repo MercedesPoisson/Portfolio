@@ -4,8 +4,8 @@ import ColorContext from "./ColorContext";
 const Footer = () => {
     const { isPurple, toggleColor } = useContext(ColorContext);
     return(
-        <div className={`h-10 text-yellow flex justify-end items-center ${isPurple ? "bg-red" : "bg-red"}`}>
-            {/* <p className="mr-10">Contact</p> */}
+        <div className={`h-10 text-slate-200 flex justify-end items-center ${isPurple ? "bg-red" : "bg-red"}`}>
+            <p className="mr-10">status: development</p>
         </div>
     )
 }
