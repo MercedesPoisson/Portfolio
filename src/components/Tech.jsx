@@ -14,11 +14,11 @@ const Tech = () => {
 
   return (
     <div className="mt-20">
-      <h1 className={`mb-1 text-5xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>Tech Skills</h1>
+      <h1 className={`mb-1 text-2xl sm:text-3xl md:text-4xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>Tech Skills</h1>
       <div className={`text-sm mt-4 text-justify font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
         <p className={isPurple ? "text-green" : "text-red"}>Found some of the technologies I worked with:</p>
 
-        <div className="grid grid-cols-5 gap-4 mt-6">
+        <div className="grid grid-cols-3 sm:grid-cols-5 gap-4 mt-6">
           <div className="flex flex-col items-center border mb-8 py-2">
             <span><FontAwesomeIcon icon={faHtml5} className={`mr-2 cursor-pointer text-4xl ${isPurple ? "text-red  hover:text-green" : "text-green hover:text-red"}  `} /></span>
             <span>HTML</span>

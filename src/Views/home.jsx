@@ -13,7 +13,7 @@ const Home = () => {
         <NavBar />
       <div className="flex-grow flex">
         <RightIcons />
-        <div className="w-full max-w-3xl mx-auto flex-grow">
+        <div className="w-full max-w-3xl mx-4 sm:mx-auto flex-grow">
           <Outlet />
         </div>
       </div>

@@ -22,7 +22,7 @@ const Project = () => {
   return (
     <div className="mt-20">
       <h1
-        className={`mb-1 text-3xl sm:text-4xl md:text-5xl font-bold ${
+        className={`mb-1 text-2xl sm:text-3xl md:text-4xl font-bold ${
           isPurple ? "text-slate-200" : "text-black"
         }`}
       >
@@ -70,7 +70,7 @@ const Project = () => {
           {activeProject === "airebnb" && (
             <div>
               <p
-                className={`font-light mt-3 ${
+                className={`font-light sm:font-medium mt-3 ${
                   isPurple ? "text-slate-200" : "text-black"
                 }`}
               >
@@ -79,7 +79,7 @@ const Project = () => {
                 country, providing them with a home-like experience while
                 traveling.
                 <p
-                  className={`font-light mt-3 ${
+                  className={`font-light sm:font-medium mt-3 ${
                     isPurple ? "text-slate-200" : "text-black"
                   }`}
                 >
@@ -92,7 +92,7 @@ const Project = () => {
                   conjunction with Sequelize for improved interaction.
                 </p>
                 <p
-                  className={`font-light  mt-3 ${
+                  className={`font-light sm:font-medium mt-3 ${
                     isPurple ? "text-slate-200" : "text-black"
                   }`}
                 >
@@ -105,14 +105,14 @@ const Project = () => {
                   was integrated.
                 </p>
                 <p
-                  className={`font-light  mt-3 ${
+                  className={`font-light sm:font-medium mt-3 ${
                     isPurple ? "text-slate-200" : "text-black"
                   }`}
                 >
                   Deployed at: https://pf-airbnb.vercel.app/?page=0
                 </p>
                 <p
-                  className={`font-light  mt-3 ${
+                  className={`font-light sm:font-medium mt-3 ${
                     isPurple ? "text-slate-200" : "text-black"
                   }`}
                 >
@@ -142,7 +142,7 @@ const Project = () => {
           {activeProject === "foodie-lovers" && (
             <div>
               <p
-                className={`font-light mt-3 ${
+                className={`font-light sm:font-medium mt-3 ${
                   isPurple ? "text-slate-200" : "text-black"
                 }`}
               >
@@ -171,7 +171,7 @@ const Project = () => {
                 </p>
 
                 <p
-                  className={`font-light  mt-3 ${
+                  className={`font-light sm:font-medium mt-3 ${
                     isPurple ? "text-slate-200" : "text-black"
                   }`}
                 >
@@ -201,7 +201,7 @@ const Project = () => {
           {activeProject === "rick-and-morty" && (
             <div>
               <p
-                className={`font-light mt-3 ${
+                className={`font-light sm:font-medium mt-3 ${
                   isPurple ? "text-slate-200" : "text-black"
                 }`}
               >
@@ -214,7 +214,7 @@ const Project = () => {
                   various ways, save them as favorites, and authenticate users.
                 </p>
                 <p
-                  className={`font-light  mt-3 ${
+                  className={`font-light sm:font-medium mt-3 ${
                     isPurple ? "text-slate-200" : "text-black"
                   }`}
                 >

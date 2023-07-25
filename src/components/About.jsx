@@ -7,9 +7,9 @@ const About = () => {
   const { isPurple, toggleColor } = useContext(ColorContext);
   return (
     <div className="mt-20">
-      <h1 className={`mb-1 text-5xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>About</h1>
+      <h1 className={`mb-1 text-2xl sm:text-3xl md:text-4xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>About</h1>
       <div className="text-sm mt-4 text-justify">
-        <p className={`font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
+        <p className={`font-light sm:font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
           In the past few years, I worked as a data analyst at the Federal
           Administration of Public Revenues (AFIP). Many people consider this to
           be an ideal job, but not for me. <br />
@@ -20,7 +20,7 @@ const About = () => {
         </p>
       </div>
       <div className="text-sm mt-4 text-justify">
-        <p className={isPurple ? "text-slate-200" : "text-black"}>
+        <p className={`font-light sm:font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
         Little did I know that this turning point would lead me to an experience that would completely 
         blow my mind. <br />
         I stumbled upon the format of a bootcamp at Soy Henry, and without hesitation, 
@@ -30,7 +30,7 @@ const About = () => {
         </p>
       </div>
       <div className="text-sm mt-4 text-justify">
-        <p className={isPurple ? "text-slate-200" : "text-black"}>
+        <p className={`font-light sm:font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
         With my studies now behind me, I am eager to embark on this exciting new chapter, 
         armed with the knowledge and skills to create innovative solutions and tackle complex challenges. 
         My passion for learning and exploring new technologies knows no bounds, and I am committed to staying 
@@ -38,7 +38,7 @@ const About = () => {
         </p>
       </div>
       <div className="text-sm mt-4 text-justify">
-        <p className={isPurple ? "text-slate-200" : "text-black"}>
+        <p className={`font-light sm:font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
         And just when I thought the story was written, I realize that it's only the beginning. 
         I have found a new passion and profession that I absolutely love, and I'm excited to rewrite my 
         future with endless possibilities ahead.
@@ -47,7 +47,7 @@ const About = () => {
       <br/>
       <div className="text-green font-bold">
   <div className="flex items-center">
-    <p className={isPurple ? "text-red hover:text-green" : "text-green hover:text-red"}>
+    <p className={`font-light sm:font-medium ${isPurple ? "text-red hover:text-green" : "text-green hover:text-red"}`}>
       Hope you enjoy my portfolio, and feel free to contact me at any time
     </p>
     
