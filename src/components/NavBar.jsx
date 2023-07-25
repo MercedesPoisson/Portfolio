@@ -33,6 +33,11 @@ const NavBar = () => {
     navigate("/contact");
   };
 
+  const handleNavigateToServices = () => {
+    setShowMenu(false);
+    navigate("/services")
+  }
+
   return (
     <div
       className={`h-16 px-4 flex items-center font-sans ${
@@ -79,11 +84,18 @@ const NavBar = () => {
             >
               Tech
             </li>
+
             <li
               className="cursor-pointer font-medium hover:text-green"
               onClick={handleNavigateToProject}
             >
               Projects
+            </li>
+            <li
+              className="cursor-pointer font-medium hover:text-green"
+              onClick={handleNavigateToServices}
+            >
+              Services
             </li>
             {/* <li className="cursor-pointer font-medium hover:text-green" onClick={handleNavigateToContact}>Contact</li> */}
             <li

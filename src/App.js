@@ -6,6 +6,7 @@ import About from "./components/About";
 import Tech from "./components/Tech";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import Services from "./components/Services";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="tech" element={<Tech />}/>
           <Route path="project" element={<Project />}/>
           <Route path="contact" element={<Contact />}/>
+          <Route path="services" element={<Services />}/>
 
         </Route>
         </Routes>   
