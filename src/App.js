@@ -7,6 +7,7 @@ import Tech from "./components/Tech";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
+import ProjectMini from "./components/ProjectsMini";
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
           <Route index element={<Portfolio />}/>
           <Route path="about" element={<About />}/>
           <Route path="tech" element={<Tech />}/>
-          <Route path="project" element={<Project />}/>
+          <Route path="project" element={<ProjectMini />}/>
           <Route path="contact" element={<Contact />}/>
           <Route path="services" element={<Services />}/>
 

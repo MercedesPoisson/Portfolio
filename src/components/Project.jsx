@@ -74,42 +74,25 @@ const Project = () => {
                   isPurple ? "text-slate-200" : "text-black"
                 }`}
               >
-                An application designed to connect property owners throughout
-                Argentina with people looking to stay in different parts of the
-                country, providing them with a home-like experience while
-                traveling.
+                A dynamic application connecting property owners across Argentina with travelers seeking a 
+                home-like experience
                 <p
                   className={`font-light sm:font-medium mt-3 ${
                     isPurple ? "text-slate-200" : "text-black"
                   }`}
                 >
-                  The project was initiated using Vite as a fast framework for
-                  application development. TypeScript was chosen for better code
-                  quality, safety, and control. For styling, Tailwind CSS.
-                  Node.js was selected as the runtime environment, and Express
-                  was chosen as the framework for building the REST API.
-                  PostgreSQL was used as the data management system, working in
-                  conjunction with Sequelize for improved interaction.
+                  Developed with Vite for speed, TypeScript for code quality, and Tailwind CSS for styling. 
+                  Powered by Node.js and Express, with PostgreSQL and Sequelize for data management. Security and 
+                  user authentication managed through Auth0, email notifications with NodeMailer, and image handling via Cloudinary. 
+                  Enhanced with React libraries and integrated with Mercado Pago for seamless payments.
                 </p>
+                
                 <p
                   className={`font-light sm:font-medium mt-3 ${
                     isPurple ? "text-slate-200" : "text-black"
                   }`}
                 >
-                  Auth0 was implemented for security management and user
-                  authentication using user sessions. NodeMailer was used for
-                  email notifications regarding reservations and payments.
-                  Cloudinary was used for image handling and storage. React
-                  libraries, including date picker and responsive carousel, were
-                  incorporated. Additionally, the Mercado Pago payment gateway
-                  was integrated.
-                </p>
-                <p
-                  className={`font-light sm:font-medium mt-3 ${
-                    isPurple ? "text-slate-200" : "text-black"
-                  }`}
-                >
-                  Deployed at: https://pf-airbnb.vercel.app/?page=0
+                <a href="https://pf-airbnb.vercel.app/?page=0" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-green font-semibold">Check it out </a>
                 </p>
                 <p
                   className={`font-light sm:font-medium mt-3 ${
@@ -146,30 +129,17 @@ const Project = () => {
                   isPurple ? "text-slate-200" : "text-black"
                 }`}
               >
-                Foodie Lovers is an application for users to search recipes and
-                share their own ones.
+                Foodie Lovers: A recipe-sharing app where users can explore and contribute their culinary creations.
                 <p className="mt-3">
-                  In the front-end development, I choose React to build the user
-                  interface and Redux to manage the global state of the
-                  application. I implemented a wide range of filters to
-                  facilitate recipe search, including a search bar that allows
-                  users to find recipes by full or partial name without case
-                  sensitivity.
+                The front-end boasts React for seamless UI and Redux for managing global state. Offering an array of user-friendly filters, 
+                including a case-insensitive search bar for easy recipe discovery.
                 </p>
                 <p className="mt-3">
-                  One of the most enjoyable parts of the project was creating an
-                  interactive form that enables users to submit their own
-                  recipes. I included a preview function so that users can see
-                  how their recipe will look before publishing it, and I also
-                  considered the option for users to upload custom images or
-                  choose from a selection of pre-loaded images.
+                Creating interactive recipe submission forms was a highlight, complete with a preview feature and image upload options. 
+                On the back-end, Node.js manages routes, controllers, and handlers, while a PostgreSQL database works alongside 
+                Sequelize ORM for efficient data management.
                 </p>
-                <p className="mt-3">
-                  For the back-end, I used Node.js to handle routes (CRUD),
-                  controllers, and handlers. Additionally, I implemented a
-                  PostgreSQL database using the Sequelize ORM.
-                </p>
-
+                
                 <p
                   className={`font-light sm:font-medium mt-3 ${
                     isPurple ? "text-slate-200" : "text-black"
