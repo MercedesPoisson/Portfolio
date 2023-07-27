@@ -17,7 +17,8 @@ const RightIcons = () => {
         <FontAwesomeIcon icon={faEnvelope} className="text-green text-lg sm:text-3xl hover:text-red" />
       </a>
       <div className="flex flex-col items-center mt-4 cursor-pointer">
-        <a href={MercedesPoisson}>
+        <a href={MercedesPoisson}
+        download="MercedesPoisson.pdf">
           <FontAwesomeIcon icon={faSolidFile} className="text-green text-lg sm:text-3xl hover:text-red" />
         </a>
       </div>
