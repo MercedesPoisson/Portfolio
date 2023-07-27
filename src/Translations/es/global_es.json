@@ -1,7 +1,8 @@
 {
     "Portfolio": {
        "hi": "Hola, mi nombre es",
-       "full": "Soy Full Stack Developer",
+       "full": "Soy",
+       "programmer": "programador",
        "description": "He completado el bootcamp de Soy Henry, acumulando más de 700 horas de entrenamiento intensivo práctico/teórico. A lo largo del programa, desarrollé con éxito varios proyectos que demuestran mis habilidades como desarrollador full stack. Estoy muy entusiasmada con los desafíos y oportunidades que se presentan en este campo, y estoy ansiosa de aplicar mis habilidades y pasión para crear experiencias web cautivadoras e impactantes."
     },
     "NavBar": {
