@@ -5,12 +5,15 @@ import RightIcons from "../components/RightIcons";
 import Footer from "../components/Footer";
 import { useContext } from "react";
 import ColorContext from "../components/ColorContext";
+import useMedia from "use-media";
 
 const Home = () => {
-    const { isPurple } = useContext(ColorContext);
+  const { isPurple } = useContext(ColorContext);
+  const isLargeScreen = useMedia({ minWidth: "600px" });
+
   return (
-    <div className={`flex flex-col h-screen ${isPurple ? "bg-purple" : "bg-white"}`}>
-        <NavBar />
+    <div className={`flex flex-col ${isPurple ? "bg-purple" : "bg-white"} ${isLargeScreen ? "h-screen" : ""}`}>
+      <NavBar />
       <div className="flex-grow flex">
         <RightIcons />
         <div className="w-full max-w-3xl mx-4 sm:mx-auto flex-grow">
