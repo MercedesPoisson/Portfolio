@@ -2,8 +2,10 @@ import { useNavigate } from "react-router";
 import { BsEmojiSmileFill } from "react-icons/bs";
 import { useContext, useState } from "react";
 import ColorContext from "./ColorContext";
+import { useTranslation }  from "react-i18next"
 
 const NavBar = () => {
+  const [t, i18n] = useTranslation("global")
   const { isPurple, toggleColor } = useContext(ColorContext);
   const navigate = useNavigate();
   const [showMenu, setShowMenu] = useState(false);
@@ -70,40 +72,43 @@ const NavBar = () => {
               className="cursor-pointer font-medium hover:text-green"
               onClick={handleNavigateToPortfolio}
             >
-              Home
+              {t("NavBar.Home")}
             </li>
             <li
               className="cursor-pointer font-medium hover:text-green"
               onClick={handleNavigateToAbout}
             >
-              About
+              {t("NavBar.About")}
             </li>
             <li
               className="cursor-pointer font-medium hover:text-green"
               onClick={handleNavigateTotech}
             >
-              Tech
+              {t("NavBar.Tech")}
             </li>
 
             <li
               className="cursor-pointer font-medium hover:text-green"
               onClick={handleNavigateToProject}
             >
-              Projects
+              {t("NavBar.Projects")}
             </li>
             <li
               className="cursor-pointer font-medium hover:text-green"
               onClick={handleNavigateToServices}
             >
-              Services
+              {t("NavBar.Services")}
             </li>
             {/* <li className="cursor-pointer font-medium hover:text-green" onClick={handleNavigateToContact}>Contact</li> */}
-            <li
-              className="cursor-pointer mr-1 font-bold text-red hover:text-black"
-            >
-              ES
+            <li className="cursor-pointer mr-1 font-bold text-red hover:text-black">
+              <button onClick={() => i18n.changeLanguage("es")}>
+                ES
+              </button>              
             </li>
-            {/* <li className="cursor-pointer font-bold text-red hover:text-black">ES</li> */}
+            <li className="cursor-pointer font-bold text-red hover:text-black">
+              <button onClick={() => i18n.changeLanguage("en")}>EN
+                </button>
+                </li>
           </ul>
         </nav>
         <div className="sm:hidden">

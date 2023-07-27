@@ -5,12 +5,14 @@ import { faGithubSquare, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import Modal from "react-modal";
 import YouTube from "react-youtube";
+import { useTranslation }  from "react-i18next"
 
 
 const ProjectMini = () => {
   const { isPurple, toggleColor } = useContext(ColorContext);
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [currentProject, setCurrentProject] = useState(null);
+  const [t, i18n] = useTranslation("global")
 
   const projects = [
     {
@@ -49,7 +51,7 @@ const ProjectMini = () => {
   return (
     <div className="mt-20">
   <h1 className={`mb-1 text-2xl sm:text-3xl md:text-4xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>
-    Projects
+    {t("ProjectsMini.title")}
   </h1>
   <div className="grid gap-4 sm:grid-cols-3 mt-4">
     {projects.map((project) => (

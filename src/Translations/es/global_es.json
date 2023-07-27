@@ -1,0 +1,27 @@
+{
+    "Portfolio": {
+       "hi": "Hola, mi nombre es",
+       "full": "Soy Full Stack Developer",
+       "description": "He completado el bootcamp de Soy Henry, acumulando más de 700 horas de entrenamiento intensivo práctico/teórico. A lo largo del programa, desarrollé con éxito varios proyectos que demuestran mis habilidades como desarrollador full stack. Estoy muy entusiasmada con los desafíos y oportunidades que se presentan en este campo, y estoy ansiosa de aplicar mis habilidades y pasión para crear experiencias web cautivadoras e impactantes."
+    },
+    "NavBar": {
+        "Home": "Inicio",
+        "About": "Sobre Mi",
+        "Tech": "Tech",
+        "Projects": "Proyectos",
+        "Services": "Servicios"
+    },
+    "About": {
+        "title": "Sobre Mi",
+        "p_1": "Durante mi trayectoria profesional, hice la transición de analista de datos en la Administración Federal de Ingresos Públicos (AFIP) para seguir mi pasión por la decoración de interiores y establecer mi propia empresa. Esta aventura despertó mi interés en el desarrollo web, al surgir la necesidad de una web para automatizar las ventas, llegando así al bootcamp de Soy Henry.",
+        "p_2": "Ahora, equipada con una gran cantidad de conocimientos, estoy lista para embarcarme en un emocionante nuevo capítulo como desarrollador web. Siempre con necesidad de aprendizaje y ansiosa por mantenerme a la vanguardia de la tecnología, espero con entusiasmo combinar mi experiencia técnica con el diseño creativo en un curso de diseño UI/UX que he iniciado. El futuro está lleno de posibilidades y no puedo esperar para crear soluciones innovadoras y experiencias cautivadoras para los usuarios.",
+        "p_3": "Espero que disfrutes de mi portfolio, estare feliz de conectar cuando lo creas necesario"
+    },
+    "Tech": {
+        "title": "Habilidades Tech",
+        "p": "Encontrá algunas de las tecnologías con las que he trabajado:"
+    },
+    "ProjectsMini": {
+        "title": "Proyectos"
+    }
+}

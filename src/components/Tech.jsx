@@ -7,16 +7,19 @@ import { DiVisualstudio  } from 'react-icons/di';
 import React from "react";
 import { useContext } from "react";
 import ColorContext from "./ColorContext";
+import { useTranslation }  from "react-i18next"
+
 // import "./Tech.css";
 
 const Tech = () => {
-    const { isPurple, toggleColor } = useContext(ColorContext);
+  const [t, i18n] = useTranslation("global")
+  const { isPurple, toggleColor } = useContext(ColorContext);
 
   return (
     <div className="mt-20">
-      <h1 className={`mb-1 text-2xl sm:text-3xl md:text-4xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>Tech Skills</h1>
+      <h1 className={`mb-1 text-2xl sm:text-3xl md:text-4xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>{t("Tech.title")}</h1>
       <div className={`text-sm mt-4 text-justify font-medium ${isPurple ? "text-slate-200" : "text-black"}`}>
-        <p className={isPurple ? "text-green" : "text-red"}>Found some of the technologies I worked with:</p>
+        <p className={isPurple ? "text-green" : "text-red"}>{t("Tech.p")}</p>
 
         <div className="grid grid-cols-3 sm:grid-cols-5 gap-4 mt-6">
           <div className="flex flex-col items-center border mb-8 py-2">

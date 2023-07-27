@@ -69,7 +69,7 @@ module.exports = {
           overflow: "hidden",
         },
         ".developer::before": {
-          content: ['"I am a Full Stack Developer"'],
+          content: ['"Full Stack Developer"'],
           position: "absolute",
           color: "#E96479",
           borderRightWidth: "2px",
