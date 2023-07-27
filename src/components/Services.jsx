@@ -3,8 +3,10 @@ import ColorContext from "./ColorContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode, faPlug, faScrewdriverWrench, faToolbox  } from "@fortawesome/free-solid-svg-icons"; 
 import { faShopify } from "@fortawesome/free-brands-svg-icons";
+import { useTranslation }  from "react-i18next"
 
 const Services = () => {
+  const [t, i18n] = useTranslation("global")
   const { isPurple, toggleColor } = useContext(ColorContext);
 
   return (
@@ -14,13 +16,11 @@ const Services = () => {
           isPurple ? "text-slate-200" : "text-black"
         }`}
       >
-        Services
+        {t("Services.title")}
       </h1>
       <p className={`text-sm mt-3 text-justify ${isPurple ? "text-slate-200" : "text-black"} `}>
-        Let's talk about your needs and together, we'll create an organizational plan using agile 
-        methodologies. We'll set timelines for each sprint and develop mock-ups or review designs 
-        of your interest. 
-        Let's work as a team to bring all your requirements to life</p>
+        {t("Services.text")}
+        </p>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-3">
         <div className="flex flex-col items-center border mb-8 py-3 px-3">
           <FontAwesomeIcon
@@ -36,15 +36,14 @@ const Services = () => {
               isPurple ? "text-slate-200" : "text-black"
             }`}
           >
-            Web Development:
+            {t("Services.web")}
           </h4>
           <p
             className={`font-light sm:font-medium mt-3 text-center text-sm ${
               isPurple ? "text-slate-200" : "text-black"
             }`}
           >
-            Design and development of optimized, responsive, and attractive
-            websites to enhance your online presence.
+            {t("Services.web_text")}
           </p>
         </div>
 
@@ -62,15 +61,14 @@ const Services = () => {
               isPurple ? "text-slate-200" : "text-black"
             }`}
           >
-            API Integration:
+            {t("Services.api")}
           </h4>
           <p
             className={`font-light sm:font-medium mt-3 text-center text-sm ${
               isPurple ? "text-slate-200" : "text-black"
             }`}
           >
-            Connecting different services and platforms through API integration 
-            to improve functionality and user experience.
+            {t("Services.api_text")}
           </p>
         </div>
 
@@ -88,14 +86,13 @@ const Services = () => {
               isPurple ? "text-slate-200" : "text-black"
             }`}
           >
-            Optimization and Maintenance:
+            {t("Services.maint")}
           </h4>
           <p
             className={`font-light sm:font-medium mt-3 text-center text-sm ${
               isPurple ? "text-slate-200" : "text-black"
             }`}
-          > Optimizing existing websites, 
-         continuous maintenance to ensure optimal performance.
+          > {t("Services.maint_text")}
             
           </p>
         </div>
@@ -114,14 +111,13 @@ const Services = () => {
               isPurple ? "text-slate-200" : "text-black"
             }`}
           >
-            eCommerce Development:
+            {t("Services.commerce")}
           </h4>
           <p
             className={`font-light sm:font-medium mt-3 text-center text-sm ${
               isPurple ? "text-slate-200" : "text-black"
             }`}
-          > Implementation and customization of eCommerce platforms to create appealing 
-          and functional online stores.
+          > {t("Services.commerce_text")}
             
           </p>
         </div>
@@ -140,13 +136,13 @@ const Services = () => {
               isPurple ? "text-slate-200" : "text-black"
             }`}
           >
-            Technical Troubleshooting:
+            {t("Services.technical")}
           </h4>
           <p
             className={`font-light sm:font-medium mt-3 text-center text-sm ${
               isPurple ? "text-slate-200" : "text-black"
             }`}
-          > Identifying and resolving technical issues in existing applications and websites.
+          > {t("Services.technical_text")}
             
           </p>
         </div>

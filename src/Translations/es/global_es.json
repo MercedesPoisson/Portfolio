@@ -24,5 +24,19 @@
     },
     "ProjectsMini": {
         "title": "Proyectos"
+    },
+    "Services": {
+        "title": "Servicios",
+        "text": "Hablemos sobre tus necesidades y juntos crearemos un plan de acción. Estableceremos plazos para cada sprint, desarrollaremos bocetos o revisaremos diseños de tu interés. Trabajemos en equipo para dar vida a tus requerimientos.",
+        "web": "Desarrollo Web:",
+        "api": "Integración con API´s:",
+        "maint": "Optimización y Mantenimiento:",
+        "commerce": "Desarrollo de Tiendas Online:",
+        "technical": "Solución de Problemas:",
+        "web_text": "Diseño y desarrollo de sitios web optimizados, responsivos y atractivos para mejorar tu presencia en línea.",
+        "api_text": " Conectando diferentes servicios y plataformas a través de la integración vía API para mejorar la funcionalidad y la experiencia del usuario.",
+        "maint_text": "Optimizando de sitios existentes, mantenimiento continuo para garantizar un rendimiento óptimo.",
+        "commerce_text": "Implementación y personalización de plataformas de comercio electrónico para crear tiendas en línea atractivas y funcionales.",
+        "technical_text": "Identificación y resolución de problemas técnicos en aplicaciones y sitios web existentes." 
     }
 }

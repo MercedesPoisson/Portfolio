@@ -24,5 +24,20 @@
     },
     "ProjectsMini": {
         "title": "Projects"
+    },
+    "Services": {
+        "title": "Services",
+        "text": "Let's talk about your needs and together, we'll create an organizational plan using agile methodologies. We'll set timelines for each sprint and develop mock-ups or review designs of your interest. Let's work as a team to bring all your requirements to life",
+        "web": "Web Development:",
+        "api": "API Integration:",
+        "maint": "Optimization and Maintenance:",
+        "commerce": "eCommerce Development:",
+        "technical": "Technical Troubleshooting:",
+        "web_text": "Design and development of optimized, responsive, and attractive websites to enhance your online presence.",
+        "api_text": "Connecting different services and platforms through API integration to improve functionality and user experience.",
+        "maint_text": "Optimizing existing websites, continuous maintenance to ensure optimal performance.",
+        "commerce_text": "Implementation and customization of eCommerce platforms to create appealing and functional online stores.",
+        "technical_text": "Identifying and resolving technical issues in existing applications and websites."
     }
+
 }

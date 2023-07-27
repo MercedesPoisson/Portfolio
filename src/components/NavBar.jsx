@@ -173,7 +173,21 @@ const NavBar = () => {
                   setShowMenu(false);
                 }}
               >
-                ES
+                <button onClick={() => i18n.changeLanguage("es")}>
+                  ES
+                </button>
+                
+              </li>
+              <li
+                className="block cursor-pointer font-bold text-red hover:text-black"
+                onClick={() => {
+                  setShowMenu(false);
+                }}
+              >
+                <button onClick={() => i18n.changeLanguage("en")}>
+                  EN
+                </button>
+                
               </li>
             </ul>
           )}
