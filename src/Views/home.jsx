@@ -1,15 +1,28 @@
 // import Portfolio from "../components/portfolio";
+import { useEffect, useState } from "react";
 import NavBar from "../components/NavBar";
 import { Outlet } from "react-router";
 import RightIcons from "../components/RightIcons";
 import Footer from "../components/Footer";
 import { useContext } from "react";
 import ColorContext from "../components/ColorContext";
-import useMedia from "use-media";
 
 const Home = () => {
   const { isPurple } = useContext(ColorContext);
-  const isLargeScreen = useMedia({ minWidth: "600px" });
+  const [isLargeScreen, setIsLargeScreen] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth >= 600);
+    };
+
+    handleResize(); // Check initial screen size
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <div className={`flex flex-col ${isPurple ? "bg-purple" : "bg-white"} ${isLargeScreen ? "h-screen" : "min-h-screen"} flex-grow-1 flex-shrink-0`}>
