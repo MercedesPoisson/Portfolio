@@ -153,43 +153,55 @@ const NavBar = () => {
 
           {/* Menú hamburguesa */}
           {showMenu && (
-            <ul className="bg-white fixed top-0 left-0 w-screen h-screen flex flex-col justify-center items-center p-4"
+            <ul className={`bg-${isPurple ? "purple" : "white"} fixed top-0 left-0 w-screen h-screen flex flex-col justify-center items-center p-4`}
             style={{
               zIndex: 9999, 
             }}
             >
               <li
-                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                className={`block cursor-pointer font-medium ${
+                  isPurple ? "text-slate-200" : "text-black"
+                } hover:text-green mb-2`}
                 onClick={handleNavigateToPortfolio}
               >
                 {t("NavBar.Home")}
               </li>
               <li
-                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                className={`block cursor-pointer font-medium ${
+                  isPurple ? "text-slate-200" : "text-black"
+                } hover:text-green mb-2`}
                 onClick={handleNavigateToAbout}
               >
                 {t("NavBar.About")}
               </li>
               <li
-                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                className={`block cursor-pointer font-medium ${
+                  isPurple ? "text-slate-200" : "text-black"
+                } hover:text-green mb-2`}
                 onClick={handleNavigateTotech}
               >
                 Tech
               </li>
               <li
-                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                className={`block cursor-pointer font-medium ${
+                  isPurple ? "text-slate-200" : "text-black"
+                } hover:text-green mb-2`}
                 onClick={handleNavigateToProject}
               >
                 {t("NavBar.Projects")}
               </li>
               <li
-                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                className={`block cursor-pointer font-medium ${
+                  isPurple ? "text-slate-200" : "text-black"
+                } hover:text-green mb-2`}
                 onClick={handleNavigateToServices}
               >
                 {t("NavBar.Services")}
               </li>
               <li
-                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                className={`block cursor-pointer font-medium ${
+                  isPurple ? "text-slate-200" : "text-black"
+                } hover:text-green mb-2`}
                 onClick={handleNavigateToContact}
               >
                 {t("NavBar.Contact")}
