@@ -35,8 +35,9 @@ const Portfolio = () => {
   className={`w-28 border-2 border-red rounded-lg px-6 py-3 flex items-center my-6 ${
     isPurple ? "bg-purple-500 text-white" : "bg-white text-black"
   }`}
-  href="/MercedesPoisson.pdf"
-  target="_blank"
+  btn-download
+  href="/utils/MercedesPoisson.pdf"  // Cambia la ruta aquí
+  download="MercedesPoisson.pdf"
 >
                 <BsCloudDownload className="text-2xl mr-2" />PDF
             </a>
