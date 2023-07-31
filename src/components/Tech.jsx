@@ -8,6 +8,7 @@ import React from "react";
 import { useContext } from "react";
 import ColorContext from "./ColorContext";
 import { useTranslation }  from "react-i18next"
+import { SiNextdotjs } from "react-icons/si";
 
 // import "./Tech.css";
 
@@ -50,6 +51,11 @@ const Tech = () => {
           <div className="flex flex-col items-center border mb-8 py-2">
             <span><FontAwesomeIcon icon={faReact} className={`mr-2 cursor-pointer text-4xl ${isPurple ? "text-red  hover:text-green" : "text-green hover:text-red"}  `} /></span>
             <span>React.js</span>
+          </div>
+
+          <div className="flex flex-col items-center border mb-8 py-2">
+            <span><SiNextdotjs icon={SiNextdotjs} className={`mr-2 cursor-pointer text-4xl ${isPurple ? "text-red  hover:text-green" : "text-green hover:text-red"}  `} /></span>
+            <span>Next.js</span>
           </div>
 
           <div className="flex flex-col items-center border mb-8 py-2">

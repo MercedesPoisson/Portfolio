@@ -10,7 +10,8 @@
         "About": "Sobre Mi",
         "Tech": "Tech",
         "Projects": "Proyectos",
-        "Services": "Servicios"
+        "Services": "Servicios",
+        "Contact": "Contacto"
     },
     "About": {
         "title": "Sobre Mi",
@@ -23,7 +24,11 @@
         "p": "Encontrá algunas de las tecnologías con las que he trabajado:"
     },
     "ProjectsMini": {
-        "title": "Proyectos"
+        "title": "Proyectos",
+        "description_airebnb": "Una aplicación dinámica que conecta a dueños de propiedades en toda Argentina con viajeros que buscan una experiencia similar a estar en casa. Desarrollada con Vite para una mayor velocidad, TypeScript para garantizar la calidad del código, y Tailwind CSS para el diseño. Potenciada por Node.js y Express, con PostgreSQL y Sequelize para la gestión de datos. La seguridad y la autenticación de usuarios se gestionan a través de Auth0, las notificaciones por correo electrónico con NodeMailer, y el manejo de imágenes mediante Cloudinary. Mejorada con bibliotecas de React e integrada con Mercado Pago para pagos sin interrupciones.",
+        "description_foodielovers": "Una aplicación para compartir recetas donde los usuarios pueden explorar y contribuir con sus creaciones culinarias. El front-end utiliza React para una interfaz de usuario fluida y Redux para gestionar el estado global. Ofrece una variedad de filtros fáciles de usar, incluido un buscador insensible a mayúsculas y minúsculas para facilitar el descubrimiento de recetas. Destaca la creación de formularios interactivos para enviar recetas, completos con una función de vista previa y opciones de carga de imágenes. En el back-end, Node.js se encarga de las rutas, controladores y manejadores, mientras que una base de datos PostgreSQL trabaja junto con Sequelize ORM para una gestión eficiente de datos.",
+        "description_rick": "Esta fue la primera aplicación que desarrollé para aprender diferentes tecnologías que luego mejoré. Es un proyecto híbrido que, a pesar de la combinación de tecnologías, resultó bastante decente. Es una aplicación para explorar los personajes de la serie de televisión Rick & Morty. Los usuarios pueden buscar y filtrar personajes de diversas formas, guardarlos como favoritos y autenticarse en la aplicación",
+        "button": "Cerrar"
     },
     "Services": {
         "title": "Servicios",
@@ -38,5 +43,9 @@
         "maint_text": "Optimizando de sitios existentes, mantenimiento continuo para garantizar un rendimiento óptimo.",
         "commerce_text": "Implementación y personalización de plataformas de comercio electrónico para crear tiendas en línea atractivas y funcionales.",
         "technical_text": "Identificación y resolución de problemas técnicos en aplicaciones y sitios web existentes." 
+    },
+    "Contact": {
+        "title": "Contacto",
+        "p": "¡No dudes en contactarme y creemos algo increíble juntos!"
     }
 }

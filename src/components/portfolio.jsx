@@ -13,7 +13,7 @@ const Portfolio = () => {
     return (
         <div className={`mt-20 `}>
             <h4 className={`mb-6 text-base font-bold ${isPurple ? "text-red" : "text-green"}`}>{t("Portfolio.hi")}</h4>
-            <h1 className={`mb-1 text-2xl sm:text-4xl md:text-5xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>Mercedes Poisson</h1>
+            <h1 className={`mb-1 text-2xl sm:text-4xl md:text-5xl font-bold ${isPurple ? "text-slate-200" : "text-black" } `}>Mercedes Poisson</h1>
 
             <div
         className={`animation-area flex uppercase tracking-[5px] bg-transparent text-2xl sm:text-4xl text-argentina py-[20px] h-[80px]  ${

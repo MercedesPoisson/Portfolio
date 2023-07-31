@@ -10,7 +10,8 @@
         "About": "About",
         "Tech": "Tech",
         "Projects": "Projects",
-        "Services": "Services"
+        "Services": "Services",
+        "Contact": "Contact"
     },
     "About": {
         "title": "About",
@@ -23,7 +24,11 @@
         "p": "Found some of the technologies I worked with:"
     },
     "ProjectsMini": {
-        "title": "Projects"
+        "title": "Projects",
+        "description_airebnb": "A dynamic application connecting property owners across Argentina with travelers seeking a home-like experience. Developed with Vite for speed, TypeScript for code quality, and Tailwind CSS for styling. Powered by Node.js and Express, with PostgreSQL and Sequelize for data management. Security and user authentication managed through Auth0, email notifications with NodeMailer, and image handling via Cloudinary. Enhanced with React libraries and integrated with Mercado Pago for seamless payments.",
+        "description_foodielovers": "A recipe-sharing app where users can explore and contribute their culinary creations. The front-end boasts React for seamless UI and Redux for managing global state. Offering an array of user-friendly filters, including a case-insensitive search bar for easy recipe discovery. Creating interactive recipe submission forms was a highlight, complete with a preview feature and image upload options. On the back-end, Node.js manages routes, controllers, and handlers, while a PostgreSQL database works alongside Sequelize ORM for efficient data management.",
+        "description_rick": "This was the first application I developed to learn different technologies that I later improved. It is a hybrid project that, despite the mix of tech, turned out quite decent. It is an application to explore the characters from the TV series Rick & Morty. Users can search and filter characters in various ways, save them as favorites, and authenticate users.",
+        "button": "Close"
     },
     "Services": {
         "title": "Services",
@@ -38,6 +43,10 @@
         "maint_text": "Optimizing existing websites, continuous maintenance to ensure optimal performance.",
         "commerce_text": "Implementation and customization of eCommerce platforms to create appealing and functional online stores.",
         "technical_text": "Identifying and resolving technical issues in existing applications and websites."
+    },
+    "Contact": {
+        "title": "Contact",
+        "p": "Feel free to reach out and let's create something awesome together!"
     }
 
 }

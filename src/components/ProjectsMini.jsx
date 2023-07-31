@@ -19,22 +19,20 @@ const ProjectMini = () => {
         title: "airebnb",
         videoUrl: "https://www.youtube.com/watch?v=EI7aJW3Hgww",
         githubUrl: "https://github.com/MercedesPoisson/Airebnb_Complete_Project",
-        description:
-          "A dynamic application connecting property owners across Argentina with travelers seeking a home-like experience. Developed with Vite for speed, TypeScript for code quality, and Tailwind CSS for styling. Powered by Node.js and Express, with PostgreSQL and Sequelize for data management. Security and user authentication managed through Auth0, email notifications with NodeMailer, and image handling via Cloudinary. Enhanced with React libraries and integrated with Mercado Pago for seamless payments.",
+        description: t("ProjectsMini.description_airebnb"),
       },
       {
         title: "Foddie Lovers",
         videoUrl: "https://www.youtube.com/watch?v=SJvKPsnBYao",
         githubUrl: "https://github.com/MercedesPoisson/FOOD_FOR_DEPLOY",
-        description:
-          "Foodie Lovers: A recipe-sharing app where users can explore and contribute their culinary creations. The front-end boasts React for seamless UI and Redux for managing global state. Offering an array of user-friendly filters, including a case-insensitive search bar for easy recipe discovery. Creating interactive recipe submission forms was a highlight, complete with a preview feature and image upload options. On the back-end, Node.js manages routes, controllers, and handlers, while a PostgreSQL database works alongside Sequelize ORM for efficient data management.",
+        description: t("ProjectsMini.description_foodielovers"),      
       },
       {
         title: "Rick & Morty",
         videoUrl: "https://www.youtube.com/watch?v=gX0y3v-uYy4",
         githubUrl: "https://github.com/MercedesPoisson/RickAndMorty",
-        description:
-          "This was the first application I developed to learn different technologies that I later improved. It is a hybrid project that, despite the mix of tech, turned out quite decent. It is an application to explore the characters from the TV series Rick & Morty. Users can search and filter characters in various ways, save them as favorites, and authenticate users.",
+        description: t("ProjectsMini.description_rick"),
+
       },
     ];
 
@@ -111,7 +109,7 @@ const ProjectMini = () => {
         onClick={closeModal}
         className={`border-2 border-red rounded-lg px-6 py-3 flex items-center my-6 ${isPurple ? "bg-purple-500 text-white" : "bg-white text-black"}`}
       >
-        Close
+        {t("ProjectsMini.button")}
       </button>
     </div>
   )}
