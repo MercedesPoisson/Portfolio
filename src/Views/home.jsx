@@ -28,7 +28,8 @@ const Home = () => {
     <div className={`flex flex-col ${isPurple ? "bg-purple" : "bg-white"} ${isLargeScreen ? "h-screen" : "min-h-screen"} flex-grow-1 flex-shrink-0`}>
       <NavBar />
       <div className="flex-grow flex">
-        <RightIcons />
+        {/* Renderiza RightIcons solo si es una pantalla grande */}
+        {isLargeScreen && <RightIcons />}
         <div className={`w-full max-w-3xl mx-4 sm:mx-auto ${isLargeScreen ? "flex-grow" : ""}`}>
           <Outlet />
         </div>
@@ -37,7 +38,6 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;
 
 //className="h-screen w-screen overflow-hidden flex flex-col"

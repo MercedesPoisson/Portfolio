@@ -106,98 +106,97 @@ const NavBar = () => {
             >
               {t("NavBar.Contact")}
             </li>
+
+            {/* <li className="cursor-pointer font-medium hover:text-green" onClick={handleNavigateToContact}>Contact</li> */}
+            {/* <li className="cursor-pointer mr-1 font-bold text-red hover:text-black">
+              <button onClick={() => i18n.changeLanguage("es")}>
+                ES
+              </button>              
+            </li>
+            <li className="cursor-pointer font-bold text-red hover:text-black">
+              <button onClick={() => i18n.changeLanguage("en")}>EN
+                </button>
+                </li> */}
           </ul>
         </nav>
 
         <div className={`ml-auto flex gap-4 ${isPurple ? "text-slate-200" : "text-black"}`}>
-          <button className="font-bold text-red hover:text-black" onClick={() => i18n.changeLanguage("es")}>
-            ES
-          </button>
-          <button className="font-bold text-red hover:text-black" onClick={() => i18n.changeLanguage("en")}>
-            EN
-          </button>
-        </div>
+        <button className="font-bold text-red hover:text-black" onClick={() => i18n.changeLanguage("es")}>
+          ES
+        </button>
+        <button className="font-bold text-red hover:text-black" onClick={() => i18n.changeLanguage("en")}>
+          EN
+        </button>
+      </div>
 
         <div className="sm:hidden">
           {/* Botón para abrir el menú hamburguesa */}
           <button
-    onClick={() => setShowMenu(!showMenu)}
-    className={`text-${isPurple ? "slate-200" : "black"} p-2`}
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-6 w-6"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="2"
-        d="M4 6h16M4 12h16m-7 6h7"
-      />
-    </svg>
-  </button>
+            onClick={() => setShowMenu(!showMenu)}
+            className={`text-${isPurple ? "slate-200" : "black"} p-2`}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
 
-  {/* Menú hamburguesa */}
-  {showMenu && (
-    <ul
-      className="bg-white fixed top-0 left-0 w-screen h-screen flex flex-col justify-center items-center p-4"
-      style={{
-        zIndex: 9999,
-      }}
-    >
-      <li
-        className={`block cursor-pointer font-medium ${
-          isPurple ? "text-slate-200" : "text-black"
-        } hover:text-green mb-2`}
-        onClick={handleNavigateToPortfolio}
-      >
-        {t("NavBar.Home")}
-      </li>
-      <li
-        className={`block cursor-pointer font-medium ${
-          isPurple ? "text-slate-200" : "text-black"
-        } hover:text-green mb-2`}
-        onClick={handleNavigateToAbout}
-      >
-        {t("NavBar.About")}
-      </li>
-      <li
-        className={`block cursor-pointer font-medium ${
-          isPurple ? "text-slate-200" : "text-black"
-        } hover:text-green mb-2`}
-        onClick={handleNavigateTotech}
-      >
-        {t("NavBar.Tech")}
-      </li>
-      <li
-        className={`block cursor-pointer font-medium ${
-          isPurple ? "text-slate-200" : "text-black"
-        } hover:text-green mb-2`}
-        onClick={handleNavigateToProject}
-      >
-        {t("NavBar.Projects")}
-      </li>
-      <li
-        className={`block cursor-pointer font-medium ${
-          isPurple ? "text-slate-200" : "text-black"
-        } hover:text-green mb-2`}
-        onClick={handleNavigateToServices}
-      >
-        {t("NavBar.Services")}
-      </li>
-      <li
-        className={`block cursor-pointer font-medium ${
-          isPurple ? "text-slate-200" : "text-black"
-        } hover:text-green mb-2`}
-        onClick={handleNavigateToContact}
-      >
-        {t("NavBar.Contact")}
-      </li>
-    </ul>
-  )}
+          {/* Menú hamburguesa */}
+          {showMenu && (
+            <ul className="bg-white fixed top-0 left-0 w-screen h-screen flex flex-col justify-center items-center p-4"
+            style={{
+              zIndex: 9999, 
+            }}
+            >
+              <li
+                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                onClick={handleNavigateToPortfolio}
+              >
+                {t("NavBar.Home")}
+              </li>
+              <li
+                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                onClick={handleNavigateToAbout}
+              >
+                {t("NavBar.About")}
+              </li>
+              <li
+                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                onClick={handleNavigateTotech}
+              >
+                Tech
+              </li>
+              <li
+                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                onClick={handleNavigateToProject}
+              >
+                {t("NavBar.Projects")}
+              </li>
+              <li
+                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                onClick={handleNavigateToServices}
+              >
+                {t("NavBar.Services")}
+              </li>
+              <li
+                className="block cursor-pointer font-medium text-black hover:text-green mb-2"
+                onClick={handleNavigateToContact}
+              >
+                {t("NavBar.Contact")}
+              </li>
+              
+            </ul>
+          )}
         </div>
       </div>
     </div>

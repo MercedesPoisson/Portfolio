@@ -13,8 +13,8 @@ const Contact = () => {
 
     return (
         <div className="mt-20">
-            <h1 className={`mb-1 text-4xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>{t("Contact.title")}</h1>
-            <p className={isPurple ? "text-green" : "text-red"}>{t("Contact.p")}</p>
+            <h1 className={`mb-1 text-2xl sm:text-3xl md:text-4xl font-bold ${isPurple ? "text-slate-200" : "text-black"}`}>{t("Contact.title")}</h1>
+            <p className={ `font-light sm:font-medium ${isPurple ? "text-green" : "text-red"}`}>{t("Contact.p")}</p>
             <div className={`flex items-center mt-4 ${isPurple ? "text-red" : "text-green"}`}>
                 <a href="https://wa.me/5491158335017" className="flex flex-col items-center cursor-pointer mx-4">
                     <FontAwesomeIcon icon={faWhatsapp} className="text-4xl hover:text-red" />
