@@ -5,7 +5,8 @@ import { faGithubSquare, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import Modal from "react-modal";
 import YouTube from "react-youtube";
-import { useTranslation }  from "react-i18next"
+import { useTranslation }  from "react-i18next";
+
 
 
 const ProjectMini = () => {
