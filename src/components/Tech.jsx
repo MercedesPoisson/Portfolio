@@ -28,9 +28,9 @@ const Tech = () => {
             <span>HTML</span>
           </div>
 
-          <div className="flex flex-col items-center border mb-8 py-2">
+          <div className="flex flex-col items-center justify-center border mb-8 py-2">
             <span><FontAwesomeIcon icon={faSquareJs} className={`mr-2 cursor-pointer text-4xl ${isPurple ? "text-red  hover:text-green" : "text-green hover:text-red"}  `} /></span>
-            <span>JavaScipt</span>
+            <span>JavaScript</span>
           </div>
 
           <div className="flex flex-col items-center border mb-8 py-2">
@@ -80,7 +80,7 @@ const Tech = () => {
 
           <div className="flex flex-col items-center border mb-8 py-2">
             <span><BiLogoPostgresql className={`mr-2 cursor-pointer text-4xl ${isPurple ? "text-red  hover:text-green" : "text-green hover:text-red"}  `} /></span> 
-            <span>PostgresSQL</span>
+            <span>PostgreSQL</span>
             </div>
 
           <div className="flex flex-col items-center border mb-8 py-2">
@@ -93,10 +93,12 @@ const Tech = () => {
             <span>GitHub</span>
           </div>
 
-          <div className="flex flex-col items-center border mb-8 py-2">
-            <span><DiVisualstudio className={`mr-2 cursor-pointer text-4xl ${isPurple ? "text-red  hover:text-green" : "text-green hover:text-red"}  `} /></span>
-             <span>Visual Studio Code</span>
-             </div>
+          <div className="flex flex-col items-center justify-center border mb-8 py-2">
+  <span>
+    <DiVisualstudio className={`mr-2 cursor-pointer text-4xl ${isPurple ? "text-red hover:text-green" : "text-green hover:text-red"}`} />
+  </span>
+  <span>Visual Studio Code</span>
+</div>
         </div>
       </div>
     </div>

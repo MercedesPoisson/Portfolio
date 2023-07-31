@@ -16,7 +16,7 @@ const Portfolio = () => {
             <h1 className={`mb-1 text-2xl sm:text-4xl md:text-5xl font-bold ${isPurple ? "text-slate-200" : "text-black" } `}>Mercedes Poisson</h1>
 
             <div
-        className={`animation-area flex uppercase tracking-[2px] sm:tracking-[5px] bg-transparent text-xl sm:text-4xl text-argentina py-[20px] h-[60px] sm:h-[80px]  ${
+        className={`animation-area flex uppercase tracking-[1px] sm:tracking-[5px] bg-transparent text-xl sm:text-4xl text-argentina py-[20px] h-[60px] sm:h-[80px]  ${
           isPurple ? "text-slate-200" : "text-black"
         }`}
       >
