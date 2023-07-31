@@ -32,13 +32,10 @@ const Portfolio = () => {
             {/* <h1 className={`mb-1 text-2xl sm:text-4xl md:text-5xl font-bold animate developer animate ${isPurple ? "text-slate-200" : "text-black"}`}>Full Stack Developer</h1> */}
             <p className={`text-sm text-justify ${isPurple ? "text-slate-200" : "text-black"} `}>{t("Portfolio.description")}</p>
             <a
-  className={`w-28 border-2 border-red rounded-lg px-6 py-3 flex items-center my-6 ${
-    isPurple ? "bg-purple-500 text-white" : "bg-white text-black"
-  }`}
-  btn-download
-  href="/utils/MercedesPoisson.pdf"  // Cambia la ruta aquí
-  download="MercedesPoisson.pdf"
->
+        className={`w-28 border-2 border-red rounded-lg px-6 py-3 flex items-center my-6 ${isPurple ? "bg-purple-500 text-white" : "bg-white text-black"}`}
+        href="https://portfolio-blush-three-21.vercel.app/MercedesPoisson.pdf"
+        download="MercedesPoisson.pdf"
+      >
                 <BsCloudDownload className="text-2xl mr-2" />PDF
             </a>
         </div>
