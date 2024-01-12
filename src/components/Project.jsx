@@ -40,6 +40,14 @@ const Project = () => {
             }`}
           >
             <ul className="flex space-x-6">
+            <li
+                className={`cursor-pointer font-bold hover:text-green ${
+                  isPurple ? "text-slate-200" : "text-black"
+                }`}
+                onClick={() => handleProjectClick("timbring")}
+              >
+                timbring
+              </li>
               <li
                 className={`cursor-pointer font-bold hover:text-green ${
                   isPurple ? "text-slate-200" : "text-black"
@@ -66,6 +74,61 @@ const Project = () => {
               </li>
             </ul>
           </div>
+
+          {activeProject === "timbring" && (
+            <div>
+              <p
+                className={`font-light sm:font-medium mt-3 ${
+                  isPurple ? "text-slate-200" : "text-black"
+                }`}
+              >
+                Timbring was designed to address the complications that arise when attempting to deliver or receive a package when the recipient is not at home. It provides an efficient alternative to ensure that each delivery is made on time, offering convenience to both buyers and logistics companies.
+                <p className="mt-3">
+                Front-end: We chose the power of Next.js and Redux Toolkit to seamlessly handle the application's states. It is written in TypeScript, ensuring robust and maintainable code.
+                </p>
+                <p className="mt-3">
+                Back-end: At the core of the application, we used JavaScript and Node.js. For data management, we relied on the robustness of PostgreSQL.
+                </p>
+
+                <p
+                  className={`font-light sm:font-medium mt-3 ${
+                    isPurple ? "text-slate-200" : "text-black"
+                  }`}
+                >
+                  <a
+                    href="https://www.youtube.com/watch?v=kLPVen4A0jU" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-green font-semibold">Check it out </a>
+                </p>
+                <p
+                  className={`font-light sm:font-medium mt-3 ${
+                    isPurple ? "text-slate-200" : "text-black"
+                  }`}
+                >
+                  <a
+                    href="https://github.com/MercedesPoisson/Airebnb_Complete_Project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  > 
+                    <FontAwesomeIcon
+                      icon={faGithubSquare}
+                      className="text-red text-2xl hover:text-red justify-start"
+                    />
+                  </a>
+                </p>
+              </p>
+              <button
+                className={`border-2 border-red rounded-lg px-6 py-3 flex items-center my-6 ${
+                  isPurple ? "bg-purple-500 text-white" : "bg-white text-black"
+                }`}
+                onClick={() => handleWatchClick("kLPVen4A0jU")}
+              >
+                <PiPopcornDuotone className="text-2xl mr-2" />
+                WATCH
+              </button>
+            </div>
+          )}
+          
+                    
+                              
 
           {activeProject === "airebnb" && (
             <div>
@@ -103,7 +166,7 @@ const Project = () => {
                     href="https://github.com/MercedesPoisson/Airebnb_Complete_Project"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >
+                  >           
                     <FontAwesomeIcon
                       icon={faGithubSquare}
                       className="text-red text-2xl hover:text-red justify-start"

@@ -1,10 +1,13 @@
 {
     "Portfolio": {
-       "hi": "Hi, my name is",
-       "full": "I am a",
-       "programmer": "programmer",
-       "description": "I have completed the Soy Henry bootcamp, accumulating over 700 hours of intensive training and coding practice. Throughout the program, I successfully developed several projects that showcase my abilities as a full stack developer. I am genuinely enthusiastic about the challenges and opportunities that lie ahead in this field, and I am excited to apply my skills and passion to create captivating and impactful web experiences."
-    },
+        "hi": "Hi, my name is",
+        "full": "I am a",
+        "typing_1": "I am a Full Stack developer",
+        "typing_2": "I am a coder",
+        "typing_3": "I am a Programmer",
+        "programmer": "programmer",
+        "description": "I have completed the Soy Henry bootcamp, accumulating over 700 hours of intensive training and coding practice. Throughout the program, I successfully developed several projects that showcase my abilities as a full stack developer. I am genuinely enthusiastic about the challenges and opportunities that lie ahead in this field, and I am excited to apply my skills and passion to create captivating and impactful web experiences."
+      },
     "NavBar": {
         "Home": "Home",
         "About": "About",
@@ -25,6 +28,7 @@
     },
     "ProjectsMini": {
         "title": "Projects",
+        "description_timbring": "Timbring was designed to address the complications that arise when attempting to deliver or receive a package when the recipient is not at home. It provides an efficient alternative to ensure that each delivery is made on time, offering convenience to both buyers and logistics companies.    Technologies Used: Front-end: We chose the power of Next.js and Redux Toolkit to seamlessly handle the application's states. It is written in TypeScript, ensuring robust and maintainable code. Back-end: At the core of the application, we used JavaScript and Node.js. For data management, we relied on the robustness of PostgreSQL.",
         "description_airebnb": "A dynamic application connecting property owners across Argentina with travelers seeking a home-like experience. Developed with Vite for speed, TypeScript for code quality, and Tailwind CSS for styling. Powered by Node.js and Express, with PostgreSQL and Sequelize for data management. Security and user authentication managed through Auth0, email notifications with NodeMailer, and image handling via Cloudinary. Enhanced with React libraries and integrated with Mercado Pago for seamless payments.",
         "description_foodielovers": "A recipe-sharing app where users can explore and contribute their culinary creations. The front-end boasts React for seamless UI and Redux for managing global state. Offering an array of user-friendly filters, including a case-insensitive search bar for easy recipe discovery. Creating interactive recipe submission forms was a highlight, complete with a preview feature and image upload options. On the back-end, Node.js manages routes, controllers, and handlers, while a PostgreSQL database works alongside Sequelize ORM for efficient data management.",
         "description_rick": "This was the first application I developed to learn different technologies that I later improved. It is a hybrid project that, despite the mix of tech, turned out quite decent. It is an application to explore the characters from the TV series Rick & Morty. Users can search and filter characters in various ways, save them as favorites, and authenticate users.",

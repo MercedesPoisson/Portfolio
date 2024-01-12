@@ -16,12 +16,12 @@ const RightIcons = () => {
       <a href="mailto:mercedespoisson@yahoo.com" className="flex flex-col items-center mt-4 cursor-pointer">
         <FontAwesomeIcon icon={faEnvelope} className="text-green text-lg sm:text-3xl hover:text-red" />
       </a>
-      <div className="flex flex-col items-center mt-4 cursor-pointer">
+      {/* <div className="flex flex-col items-center mt-4 cursor-pointer">
         <a href="/MercedesPoisson.pdf"
         download="MercedesPoisson.pdf">
           <FontAwesomeIcon icon={faSolidFile} className="text-green text-lg sm:text-3xl hover:text-red" />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

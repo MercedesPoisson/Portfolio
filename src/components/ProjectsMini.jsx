@@ -17,6 +17,12 @@ const ProjectMini = () => {
 
   const projects = [
     {
+      title: "timbring",
+      videoUrl: "https://www.youtube.com/watch?v=kLPVen4A0jU",
+      githubUrl: "",
+      description: t("ProjectsMini.description_timbring"),
+    },
+    {
         title: "airebnb",
         videoUrl: "https://www.youtube.com/watch?v=EI7aJW3Hgww",
         githubUrl: "https://github.com/MercedesPoisson/Airebnb_Complete_Project",
