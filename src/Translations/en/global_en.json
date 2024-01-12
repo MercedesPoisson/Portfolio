@@ -6,7 +6,7 @@
         "typing_2": "I am a coder",
         "typing_3": "I am a Programmer",
         "programmer": "programmer",
-        "description": "I have completed the Soy Henry bootcamp, accumulating over 700 hours of intensive training and coding practice. Throughout the program, I successfully developed several projects that showcase my abilities as a full stack developer. I am genuinely enthusiastic about the challenges and opportunities that lie ahead in this field, and I am excited to apply my skills and passion to create captivating and impactful web experiences."
+        "description": "Welcome to my creative realm! I invite you to navigate through my portfolio, where you can dive into some of the projects I've brought to life, showcasing the cutting-edge technologies I employed. Feel free to reach out anytime to discuss awesome ideas!"
       },
     "NavBar": {
         "Home": "Home",
@@ -18,8 +18,8 @@
     },
     "About": {
         "title": "About",
-        "p_1": "In my professional journey, I transitioned from being a data analyst at the Federal Administration of Public Revenues (AFIP) to following my passion for interior decoration and establishing my own company. This venture ignited my interest in web development, leading me to a transformative bootcamp at Soy Henry.",
-        "p_2": "Now, equipped with a wealth of knowledge, I'm ready to embark on an exciting new chapter as a web developer. Continuously hungry for learning and eager to stay at the forefront of technology, I'm looking forward to blending my technical expertise with creative design in a UI/UX design course. The future is full of possibilities, and I can't wait to create innovative solutions and captivating user experiences.",
+        "p_1": "As a passionate full stack developer, I love crafting innovative web applications that deliver exceptional user experiences. With a strong foundation in JavaScript, I excel at building interactive interfaces using React and Redux, while also honing my server-side skills with Express and Node.js, and working with databases like PostgreSQL and Sequelize for efficient data management.",
+        "p_2": "My expertise in front-end technologies, including HTML, CSS and Tailwind, empowers me to create visually appealing and responsive web designs. What truly sets me apart is my unwavering commitment to continuous growth and staying at the forefront of web development. I eagerly embrace new technologies and trends, always pushing myself to deliver cutting-edge solutions.",
         "p_3": "Hope you enjoy my portfolio, and feel free to contact me at any time"
     },
     "Tech": {

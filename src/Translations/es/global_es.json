@@ -6,7 +6,7 @@
         "typing_2": "Me encanta codear",
         "typing_3": "Soy Programador",
         "programmer": "programador",
-        "description": "He completado el bootcamp de Soy Henry, acumulando más de 700 horas de entrenamiento intensivo práctico/teórico. A lo largo del programa, desarrollé con éxito varios proyectos que demuestran mis habilidades como desarrollador full stack. Estoy muy entusiasmada con los desafíos y oportunidades que se presentan en este campo, y estoy ansiosa de aplicar mis habilidades y pasión para crear experiencias web cautivadoras e impactantes."
+        "description": "¡Bienvenido a mi mundo creativo! Te invito a explorar mi portafolio, donde podrás sumergirte en algunos de los proyectos que he dado vida, destacando las innovadoras tecnologías que utilicé. ¡No dudes en contactarme en cualquier momento para hablar de ideas asombrosas!"
       },
     "NavBar": {
         "Home": "Inicio",
@@ -18,8 +18,8 @@
     },
     "About": {
         "title": "Sobre Mi",
-        "p_1": "Durante mi trayectoria profesional, hice la transición de analista de datos en la Administración Federal de Ingresos Públicos (AFIP) para seguir mi pasión por la decoración de interiores y establecer mi propia empresa. Esta aventura despertó mi interés en el desarrollo web, al surgir la necesidad de una web para automatizar las ventas, llegando así al bootcamp de Soy Henry.",
-        "p_2": "Ahora, equipada con una gran cantidad de conocimientos, estoy lista para embarcarme en un emocionante nuevo capítulo como desarrollador web. Siempre con necesidad de aprendizaje y ansiosa por mantenerme a la vanguardia de la tecnología, espero con entusiasmo combinar mi experiencia técnica con el diseño creativo en un curso de diseño UI/UX que he iniciado. El futuro está lleno de posibilidades y no puedo esperar para crear soluciones innovadoras y experiencias cautivadoras para los usuarios.",
+        "p_1": " Soy desarrolladora full stack, tengo una verdadera pasión por crear aplicaciones web innovadoras que brinden experiencias excepcionales a los usuarios. Con una sólida base en JavaScript, destaco en la construcción de interfaces interactivas con React y Redux, al mismo tiempo que perfecciono mis habilidades en el lado del servidor con Express y Node.js, y trabajo con bases de datos como PostgreSQL y Sequelize para una gestión eficiente de datos.",
+        "p_2": "Mi experiencia en tecnologías front-end, incluyendo HTML, CSS, Bootstrap y Tailwind, me permite crear diseños web visualmente atractivos y receptivos. Lo que realmente me distingue es mi compromiso inquebrantable con el aprendizaje continuo y estar a la vanguardia del desarrollo web. Me entusiasman las nuevas tecnologías y tendencias, siempre esforzándome por ofrecer soluciones de vanguardia. ",
         "p_3": "Espero que disfrutes de mi portfolio, estare feliz de conectar cuando lo creas necesario"
     },
     "Tech": {

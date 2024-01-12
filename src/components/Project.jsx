@@ -126,9 +126,7 @@ const Project = () => {
               </button>
             </div>
           )}
-          
-                    
-                              
+                            
 
           {activeProject === "airebnb" && (
             <div>
