@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFile as faSolidFile } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope as faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 // import MercedesPoisson from "../utils/MercedesPoisson.pdf";
 
 const RightIcons = () => {
@@ -16,6 +17,9 @@ const RightIcons = () => {
       <a href="mailto:mercedespoisson@yahoo.com" className="flex flex-col items-center mt-4 cursor-pointer">
         <FontAwesomeIcon icon={faEnvelope} className="text-green text-lg sm:text-3xl hover:text-red" />
       </a>
+      <a href="https://wa.me/5491158335017" target="_blank" rel="noreferrer" className="flex flex-col items-center mt-4 cursor-pointer">
+                    <FontAwesomeIcon icon={faWhatsapp} className="text-green text-lg sm:text-3xl hover:text-red" />
+                </a>
       {/* <div className="flex flex-col items-center mt-4 cursor-pointer">
         <a href="/MercedesPoisson.pdf"
         download="MercedesPoisson.pdf">
