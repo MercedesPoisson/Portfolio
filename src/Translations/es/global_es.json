@@ -19,7 +19,7 @@
     "About": {
         "title": "Sobre Mi",
         "p_1": " Soy desarrolladora full stack, tengo una verdadera pasión por crear aplicaciones web innovadoras que brinden experiencias excepcionales a los usuarios. Con una sólida base en JavaScript, destaco en la construcción de interfaces interactivas con React y Redux, al mismo tiempo que perfecciono mis habilidades en el lado del servidor con Express y Node.js, y trabajo con bases de datos como PostgreSQL y Sequelize para una gestión eficiente de datos.",
-        "p_2": "Mi experiencia en tecnologías front-end, incluyendo HTML, CSS, Bootstrap y Tailwind, me permite crear diseños web visualmente atractivos y receptivos. Lo que realmente me distingue es mi compromiso inquebrantable con el aprendizaje continuo y estar a la vanguardia del desarrollo web. Me entusiasman las nuevas tecnologías y tendencias, siempre esforzándome por ofrecer soluciones de vanguardia. ",
+        "p_2": "Mi experiencia en tecnologías front-end, incluyendo HTML, CSS y Tailwind, me permite crear diseños web visualmente atractivos y receptivos. Lo que realmente me distingue es mi compromiso inquebrantable con el aprendizaje continuo y estar a la vanguardia del desarrollo web. Me entusiasman las nuevas tecnologías y tendencias, siempre esforzándome por ofrecer soluciones de vanguardia. ",
         "p_3": "Espero que disfrutes de mi portfolio, estare feliz de conectar cuando lo creas necesario"
     },
     "Tech": {
